@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: bisque;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card {
+            margin-top: 15%;
+            height: 30vh;
+            width: 15%;
+            border: 2px solid black;
+            margin-bottom: 15%;
+        }
+
+        .one {
+            background-image: url(./images/1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .two {
+            background-image: url(./images/2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .three {
+            background-image: url(./images/3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .four {
+            background-image: url(./images/4.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .five {
+            background-image: url(./images/5.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+        @media screen and (max-width:767px) {
+
+            body {
+                background-color: lightblue;
+            }
+
+            .parent {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                height: 20vh;
+                width: 40%;
+                border: 2px solid black;
+            }
+
+            .one {
+                background-image: url(./images/1.png);
+            }
+
+            .two {
+                background-image: url(./images/2.png);
+            }
+
+            .three {
+                background-image: url(./images/3.png);
+            }
+
+            .four {
+                background-image: url(./images/4.png);
+            }
+
+            .five {
+                background-image: url(./images/5.png);
+            }
+        }
+
+
+        /* @media screen and (min-width:200px) and (max-width:500px) {
+             body {
+                background-color: red;
+             }
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="card one"></div>
+        <div class="card two"></div>
+        <div class="card three"></div>
+        <div class="card four"></div>
+        <div class="card five"></div>
+    </div>
+</body>
+
+</html>

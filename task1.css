@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+  
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent h1{
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+    margin-left: 5%;
+}
+
+.child{
+
+    width: 50%;
+    height: 80%;
+    margin-left: 28%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.child1{
+    height: 60%;
+    width: 33.33%;
+  
+}
+
+.child1 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.child1 img{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.child1 p{
+    margin-top: 10%;
+    text-align: justify;
+    line-height: 20px;
+    color:rgb(245, 96, 96);
+}
+
+.child2{
+    height: 60%;
+    width: 33.33%;
+  
+}
+
+.child2 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.child2 img{
+    height: 40%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.child2 p{
+    margin-top: 10%;
+    text-align: justify;
+    line-height: 20px;
+    color:darkcyan;
+}
+
+.child3{
+    height: 60%;
+    width: 33.33%;
+   
+}
+
+.child3 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.child3 img{
+    height: 40%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.child3 p{
+    margin-top: 10%;
+    text-align: justify;
+    line-height: 20px;
+    color:indianred;
+}
